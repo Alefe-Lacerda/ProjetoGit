@@ -23,3 +23,15 @@ Dando um push no github:
 1. Abra o github e crie uma pasta lá para isso
 2. Dê um "git remote add origin -m github.com/seu_user/pasta_do_github"
 3. Dê um "git push -u origin main"
+
+
+Alterando arquivos:
+1. "git add ." para mandar os arquivos alterados pro standing
+2. "git commit -m "uma mensagem"" para mandar a nova versão
+3. "git push origin main" para "empurrar" para o github (ps: não precisa mais do "-u")
+
+
+Criando uma branch:
+1. No git bash, digite: git checkou -b "nomeDaNovaBranch"
+2. Para mudar de branch, digite: git checkou "nomeDaBranch"
+3. Para juntar as versões, digite: git merge "nomeDaBranch"
